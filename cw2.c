@@ -2,15 +2,10 @@
 
 int main() {
     float costPrice, sellingPrice;
-
-    // Input values
     printf("Enter Cost Price: ");
     scanf("%f", &costPrice);
-
     printf("Enter Selling Price: ");
     scanf("%f", &sellingPrice);
-
-    // Check profit, loss, or no profit/loss
     if (sellingPrice > costPrice) {
         printf("Profit =", sellingPrice - costPrice);
     }
